@@ -8,6 +8,7 @@
     margin: 0px;
     padding: 0px;
     /* outline: 1px solid blue; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #home-container {
@@ -19,10 +20,23 @@
 
 .home-h1 {
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .home-ol {
     margin: 0px auto;
-    text-align: left;
+    text-align: center;
+    list-style: none;
+    line-height: 150%;
+}
 
+.recipe-title {
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img {
+    margin: 0px auto 10px;
+    display: block;
 }
