@@ -26,11 +26,14 @@
     text-align: center;
 } */
 
-.home-ol {
+ol {
     /* margin: 0px auto;
     text-align: center; */
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
 }
 
 .recipe-title {
