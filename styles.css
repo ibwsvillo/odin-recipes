@@ -15,7 +15,17 @@
 
 .header_nav {
     display: flex;
-    flex-direction: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lhs_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.lhs-top {
+    display: flex;
     align-items: center;
 }
 
@@ -50,7 +60,7 @@ ol {
     text-align: center;
 }
 
-img {
+.recipe-img {
     margin: 0px auto 10px;
     height: 10rem;
     width: 15rem;
