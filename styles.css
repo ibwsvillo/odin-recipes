@@ -7,7 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* outline: 1px solid blue; */
+    outline: 1px solid blue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -66,11 +66,13 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
 
 .thumbnails-home {
     height: 2rem;
     width: auto;
+    flex-grow: 1;
 }
 
 /* Recipe Section */
